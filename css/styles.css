@@ -5,42 +5,71 @@ Dark Grey: #818285
 Light Grey: #e6e6e6
 Dark Blue: #172844*/
 
-.rentcard {
+.card {
 min-height: 90px;
 background-color: #f4f4f4;
 border-top-right-radius: 8px;
 border-bottom-right-radius: 8px;
-border-left: 5px solid #7dcf5c;
 }
 
-/*.rentcard:hover {
-box-shadow: 0 0 3px rgba(200,200,200,.5)
-}*/
+/*_______Renter_______*/
+.card_renter {
+  border-left: 5px solid #7dcf5c;
+}
 
-.rentcard_left {
+.card_renter h5, .card_renter h6 {
+  color: #7dcf5c;
+}
+
+/* _______Building_______ */
+.card_building {
+  border-left: 5px solid #666;
+}
+
+.card_building h5, .card_building h6 {
+  color: #666;
+}
+
+/* _______Unit_______ */
+.card_unit {
+  border-left: 5px solid #37bcc7;
+}
+
+.card_unit h5, .card_unit h6 {
+  color: #37bcc7;
+}
+
+
+
+
+
+.card_left {
   float: left;
   width: 90px;
   min-height: 90px;
   background-color: #eee;
 }
 
-.rentcard_left h6 {
+.card_left h6 {
   text-align: center;
   padding-top: 5px;
 }
 
-.rentcard_right {
+.unit {
+  padding-top: 0;
+}
+
+.card_right {
   float: left;
   width: 80%;
   background-color: 
 }
 
-.rentcard h5 {
+.card h5 {
   text-transform: uppercase;
-  color: #7dcf5c;
 }
 
-.rentcard p {
+.card p {
   padding-top: 4px;
   font-size: 15px;
   letter-spacing: .5px;
@@ -48,12 +77,14 @@ box-shadow: 0 0 3px rgba(200,200,200,.5)
   color: #888;
 }
 
-.rentcard_right ul {
+.card_right ul {
   list-style: none;
   padding-left: 20px;
 }
 
-.rentcard_right ul li {
+.card_right ul li {
   list-style: none;
 }
+
+
 
