@@ -5,7 +5,6 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>LeaseMaid Styles</title>
-    <meta name="description" content="A simple responsive framework.">
 
     <!-- Mobile Specific Metas -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -22,39 +21,23 @@
     <![endif]-->
 
     <!-- Typekit -->
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
 
     <!-- Scripts -->
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-       })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-      ga('create', 'UA-42069005-1', 'adamkaplan.me');
-      ga('send', 'pageview');
-    </script>
   </head>
 
   <body>
     <header>
       <div class='container'>
         <div class="intro">
-          <a href="/grid">
-            <h1>grid</h1>
-          </a>
-          <p>A simple guide to responsive design.<br>Made by <a href="/" target="_blank">Adam Kaplan</a>.</p>
+          <h1>LeaseMaid Styles</h1>
+          <p>Here are some styles to get you started on your project.</p>
         </div>
-        <img src="/images/grid/intro.png" alt="Intro" class="animated fadeInUp">
       </div>
     </header>
 
     <section>
       <div class="container">
-        <h1>CSS Box Model</h1>
-        <p>It's important to understand the basics, like how elements are generated and behave in the browser, before
-        diving into responsive web design. The CSS Box Model consists of four distinct parts.</p>
-        <hr>
 
         <div class="row">
           <div class="column one-fourth">
@@ -83,17 +66,6 @@
         </div>
       </div>
     </section>
-
-    <section>
-      <div class='container'>
-        <div class="circle">2</div>
-        <h1>Use box-sizing: border-box</h1>
-        <p>Place at the top of your <code>CSS</code> file. The <code>*</code> will target all elements on the page.</p>
-        <hr>
-        <script src="https://gist.github.com/aekaplan/8247563.js"></script>
-      </div>
-    </section>
-
 
     <section>
       <div class="container">
@@ -130,105 +102,6 @@
         <script src="https://gist.github.com/aekaplan/8246032.js"></script>
       </div>
     </section>
-
-    <section class="example">
-      <div class="container">
-        <img src="/images/grid/container.png" alt="Container">
-      </div>
-    </section>
-
-    <section>
-      <div class='container'>
-        <div class="circle">4</div>
-        <h1>Create a Column</h1>
-        <p>A column is a class used for stacking content horizontally. The first margin is removed using the
-        <a href="/pseudo-classes/">pseudo-class</a> <code>first-child</code>.</p>
-        <hr>
-        <script src="https://gist.github.com/aekaplan/8246868.js"></script>
-        <script src="https://gist.github.com/aekaplan/8246935.js"></script>
-      </div>
-    </section>
-
-    <section class="example grid">
-      <div class="container">
-        <div class="column">
-          <span>.column</span>
-        </div>
-      </div>
-    </section>
-
-    <section>
-      <div class='container'>
-        <div class="circle">5</div>
-        <h1>Create Column Sizes</h1>
-          <p>Add size classes to columns to create a reuseable grid system.</p>
-          <hr>
-          <script src="https://gist.github.com/aekaplan/8247360.js"></script>
-          <script src="https://gist.github.com/aekaplan/8247386.js"></script>
-        </div>
-      </section>
-
-      <section class="example grid">
-        <div class="container">
-          <div class="row">
-            <div class="column full">
-              <span>.column .full</span>
-            </div>
-          </div>
-
-          <div class="row">
-            <div class="column two-thirds">
-              <span>.column .two-thirds</span>
-            </div>
-
-            <div class="column one-third">
-              <span>.column .one-third</span>
-            </div>
-          </div>
-
-          <div class="row">
-            <div class="column half">
-              <span>.column .half</span>
-            </div>
-
-            <div class="column half">
-              <span>.column .half</span>
-            </div>
-          </div>
-
-          <div class="row">
-            <div class="column one-third">
-              <span>.column .one-third</span>
-            </div>
-
-            <div class="column one-third">
-              <span>.column .one-third</span>
-            </div>
-
-            <div class="column one-third">
-              <span>.column .one-third</span>
-            </div>
-          </div>
-
-          <div class="row">
-            <div class="column one-fourth">
-              <span>.column .one-fourth</span>
-            </div>
-
-            <div class="column one-fourth">
-              <span>.column .one-fourth</span>
-            </div>
-
-            <div class="column one-fourth">
-              <span>.column .one-fourth</span>
-            </div>
-
-            <div class="column one-fourth">
-              <span>.column .one-fourth</span>
-            </div>
-          </div>
-        </div>
-      </section>
 
       <section class="example grid row-example">
         <div class="container">
