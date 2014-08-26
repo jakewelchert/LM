@@ -31,15 +31,20 @@ h4 {
 }
 
 h5 {
-  font-size: 18px;
+  font-size: 16px;
+  letter-spacing: .75px;
 }
 
 h6 {
-  font-size: 15px;
+  font-size: 9px;
+  text-transform: uppercase;
+  color: #7dcf5c;
+  letter-spacing: 1px;
 }
 
 p {
   margin: 0 auto;
+  font-weight: 200;
 }
 
 /* Links

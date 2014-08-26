@@ -7,7 +7,7 @@ Dark Blue: #172844*/
 
 .rentcard {
 min-height: 90px;
-background-color: #f1f1f1;
+background-color: #f4f4f4;
 border-top-right-radius: 8px;
 border-bottom-right-radius: 8px;
 border-left: 5px solid #7dcf5c;
@@ -18,13 +18,42 @@ box-shadow: 0 0 3px rgba(200,200,200,.5)
 }*/
 
 .rentcard_left {
-width: 90px;
-min-height: 90px;
-background-color: #e9e9e9;
+  float: left;
+  width: 90px;
+  min-height: 90px;
+  background-color: #eee;
+}
+
+.rentcard_left h6 {
+  text-align: center;
+  padding-top: 5px;
 }
 
 .rentcard_right {
-width: 80%;
-background-color: 
+  float: left;
+  width: 80%;
+  background-color: 
+}
+
+.rentcard h5 {
+  text-transform: uppercase;
+  color: #7dcf5c;
+}
+
+.rentcard p {
+  padding-top: 4px;
+  font-size: 15px;
+  letter-spacing: .5px;
+  font-weight: 300;
+  color: #888;
+}
+
+.rentcard_right ul {
+  list-style: none;
+  padding-left: 20px;
+}
+
+.rentcard_right ul li {
+  list-style: none;
 }
 
