@@ -1,0 +1,67 @@
+.btn {
+  border: none;
+  font-family: "Gotham";
+  font-size: 14px;
+  color: inherit;
+  background: none;
+  cursor: pointer;
+  padding: 25px 80px;
+  display: inline-block;
+  margin: 15px 30px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 700;
+  outline: none;
+  position: relative;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+  border-radius: 8px;
+}
+
+.btn:after {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+/* Button Green */
+.btn-green {
+  background-color: #7dcf5c;
+  color: #fff;
+}
+
+/* Button Green:Hover; */
+.btn-green-a:hover,
+.btn-green-a:active {
+  background-color: #60b728;
+}
+
+
+/* Button Blue */
+.btn-blue {
+  background-color: #37bcc7;
+  color: #fff;
+}
+
+/* Button Blue:Hover; */
+.btn-blue-a:hover,
+.btn-blue-a:active {
+  background-color: #169aa5;
+}
+
+
+/* Button Grey */
+.btn-grey {
+  background-color: #666666;
+  color: #fff;
+}
+
+/* Button Grey:Hover; */
+.btn-grey-a:hover,
+.btn-grey-a:active {
+  background-color: #444444;
+}
