@@ -13,6 +13,10 @@ border-bottom-right-radius: 8px;
 border-left: 5px solid #7dcf5c;
 }
 
+/*.rentcard:hover {
+box-shadow: 0 0 3px rgba(200,200,200,.5)
+}*/
+
 .rentcard_left {
 width: 90px;
 min-height: 90px;
