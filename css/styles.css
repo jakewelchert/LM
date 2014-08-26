@@ -1,12 +1,22 @@
+/*Blue: #37bcc7
+Green: #7dcf5c
+Darker Green: #6fba3f
+Dark Grey: #818285
+Light Grey: #e6e6e6
+Dark Blue: #172844*/
+
 .rentcard {
 min-height: 90px;
-background-color: #e6e6e6;
+background-color: #f1f1f1;
+border-top-right-radius: 8px;
+border-bottom-right-radius: 8px;
+border-left: 5px solid #7dcf5c;
 }
 
 .rentcard_left {
 width: 90px;
 min-height: 90px;
-background-color: #ddd;
+background-color: #e9e9e9;
 }
 
 .rentcard_right {

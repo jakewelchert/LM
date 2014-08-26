@@ -6,16 +6,26 @@
   box-sizing: border-box;
 }
 
+/*********** CLEAR FIX ***********/
+.group:before,
+.group:after {
+    content: "";
+    display: table;
+    }
+.group:after {
+    clear: both;
+    }
+.group {
+    *zoom: 1;
+    }
+/*********** CLEAR FIX ***********/
+
 html {
-  font: 112%/1.5 "Open Sans", sans-serif;
-  font-weight: 400;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
 }
 
 body {
   background-color: #fff;
-  color: #555;
+  color: #666;
 }
 
 .container {
@@ -27,7 +37,7 @@ body {
 /* Header
 -------------------------------------------------------------- */
 header {
-  background: #ec6f66;
+  background-color: #7dcf5c;
   overflow: hidden;
   text-align: center;
 }
@@ -124,9 +134,9 @@ img {
   padding: 2em;
 }
 
-.grid .row {
+.row {
   overflow: hidden;
-  margin-top: 1.5em;
+  margin-bottom: 20px;
 }
 
 .grid .row:first-child {
